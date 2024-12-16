@@ -12,16 +12,6 @@
 
 */
 
-@media (width <800px) and (orientation: portrait) {
-	p{
-		width: auto;
-		background-color:#F11A57 ;
-	}
-	body:before{
-		content: "Vous êtes en format Portrait";
-	}
-
-}
 
 body {margin:0; padding:10px 40px; background:#F1EFE2;
 	font-size: 1.6em;
@@ -32,4 +22,13 @@ h2 {color: #678; text-shadow: 1px 1px 1px #fff; font-size:1.1em}
 p {width: 800px; padding: 10px; background: #6B9A49; color: #fff;}
 p a {color: #fff;}
 
+@media (width <800px) and (orientation: portrait) {
+	p{
+		width: auto;
+		background-color:#F11A57 ;
+	}
+	body:before{
+		content: "Vous êtes en format Portrait";
+	}
 
+}
