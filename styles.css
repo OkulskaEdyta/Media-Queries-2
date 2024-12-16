@@ -12,6 +12,17 @@
 
 */
 
+@media (width <800px) and (orientation: portrait) {
+	p{
+		width: auto;
+		background-color:#F11A57 ;
+	}
+	body:before{
+		content: "Vous êtes en format Portrait";
+	}
+
+}
+
 body {margin:0; padding:10px 40px; background:#F1EFE2;
 	font-size: 1.6em;
 	font-family: georgia, "trebuchet ms", arial, serif;}
